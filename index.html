@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Hw-Sass</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- header-flex -->
+    <div class="header">
+      <div class="header__menu">
+        <div class="menu__element-1">
+          <img src="images/menu_pht.png" alt="">
+        </div>
+        <div class="menu__element-2">
+
+          <img class="burger-menu" src="images/burger-menu-svgrepo-com.svg" height="28" width="50" />
+          <nav class="header__nav">
+            <a class="link" href="">Skills</a>
+            <a class="link" href="">Portfolio</a>
+            <a class="link" href="">Video</a>
+            <a class="link" href="">Price</a>
+            <a class="link" href="">Contacts</a>
+            <span class="header__span">en / ru</span>
+          </nav>
+        </div>
+      </div>
+      <div class="header__content">
+        <h1 class="header__h1">Alexa Rise</h1>
+        <p class="header__p">Save sincere emotions, romantic feelings and happy moments of life together with
+          professional photographer Alexa Rise</p>
+        <button type="submit" class="button-gold">Hire me</button>
+      </div>
+    </div>
+    <!-- Skills-grid -->
+    <section>
+      <div class="title">
+        <hr>
+        <h1>Skills</h1>
+        <hr>
+      </div>
+      <div id="skills" class="skills">
+        <div class="skills__icon">
+          <div class="skills-providing">
+            <img src="images/camera 1.png" alt="">
+            <h3>Digital photography</h3>
+            <p>High-quality photos in the studio
+              <br> and on the nature
+            </p>
+          </div>
+          <div class="skills-providing">
+            <img src="images/video.png" alt="">
+            <h3>Video shooting</h3>
+            <p>Capture your moments so that
+              <br> they always stay with you
+            </p>
+          </div>
+          <div class="skills-providing">
+            <img src="images/gallery.png" alt="">
+            <h3>Retouch</h3>
+            <p>I strive to make photography
+              <br> surpass reality
+            </p>
+          </div>
+          <div class="skills-providing">
+            <img src="images/mic 1.png" alt="">
+            <h3>Audio</h3>
+            <p>Professional sounds recording
+              <br> for video, advertising, portfolio
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section>
+      <div class="title">
+        <hr>
+        <h1>Portfolio</h1>
+        <hr>
+      </div>
+      <div id="portfolio" class="portfolio">
+        <div class="portfolio-block">
+          <div class="portfolio__button-block">
+            <button class="button-dark">Winter</button>
+            <button class="button-dark">Spring</button>
+            <button class="button-dark">Summer</button>
+            <button class="button-dark">Autumn</button>
+          </div>
+        </div>
+        <div class="portfolio__images">
+          <div class="">
+            <img class="portfolio-img" src="images/portfolio-img.png" alt="">
+          </div>
+          <div class="">
+            <img class="portfolio-img" src="images/portfolio-img (1).png" alt="">
+          </div>
+          <div class="">
+            <img class="portfolio-img" src="images/portfolio-img (2).png" alt="">
+          </div>
+          <div class="">
+            <img class="portfolio-img" src="images/portfolio-img (3).png" alt="">
+          </div>
+          <div class="">
+            <img class="portfolio-img" src="images/portfolio-img (4).png" alt="">
+          </div>
+          <div class="">
+            <img class="portfolio-img" src="images/portfolio-img (5).png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- video -->
+    <section>
+      <div class="title">
+        <hr>
+        <h1>Video</h1>
+        <hr>
+      </div>
+      <div id="video" class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6jbVF4aQVx0" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+    <!-- price -->
+    <section>
+      <div class="title">
+        <hr>
+        <h1>Price</h1>
+        <hr>
+      </div>
+      <div class="price">
+        <div class="price-block">
+          <div class="price-card">
+            <h1>Standard</h1>
+            <h3>500 $</h3>
+            <span>One location</span>
+            <span>120 photos in color</span>
+            <span>12 photos in retouch</span>
+            <span>Readiness 2-3 weeks</span>
+            <span>Make up, visage</span>
+            <button class="button-gold">Order shooting</button>
+          </div>
+          <div class="price-card">
+            <h1>Premium</h1>
+            <h3>700 $</h3>
+            <span>One or two location</span>
+            <span>200 photos in color</span>
+            <span>20 photos in retouch</span>
+            <span>Readiness 1-2 weeks</span>
+            <span>Make up, visage</span>
+            <button class="button-gold">Order shooting</button>
+          </div>
+          <div class="price-card">
+            <h1>Gold</h1>
+            <h3>1000 $</h3>
+            <span>Three locations or more</span>
+            <span>300 photos in color</span>
+            <span>50 photos in retouch</span>
+            <span>Readiness 1 weeks</span>
+            <span>Make up, visage,hairstyle</span>
+            <button class="button-gold">Order shooting</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- registr-->
+    <section id="registration" class="registration">
+      <form>
+        <h1>Contact me</h1>
+        <input type="email" required placeholder="E-mail">
+        <input type="number" required placeholder="Phone">
+        <textarea required name="massage" id="" cols="45" rows="4" placeholder="Massage"></textarea>
+        <button class="button-gold">Send message</button>
+      </form>
+    </section>
+    <footer>
+      <div class="footer-block-1">
+        <span>©</span>
+        <span>2022</span>
+        <span>github</span>
+      </div>
+      <div class="footer-block-2">
+        <span>Rolling Scopes School</span>
+      </div>
+      <div class="footer-block-3">
+        <img src="images/inst 1.png" alt=""> 
+        <img src="images/fb 1.png" alt="">
+        <img src="images/tw 1.png" alt="">
+        <img src="images/pinterest 1.png" alt="">
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+  </div>
+</body>
+
+</html>
